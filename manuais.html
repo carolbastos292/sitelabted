@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>LabTEd - Laboratório de Tecnologias Educacionais</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="icon" href="img/logo.ico">
+
+
+	</head>
+	<body>
+		<!--Início menu -->
+		<nav class="nav navbar navbar-expand-md fixed-top navbar-light bg-light bg-white"> 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle naviagtion">
+   				<span class="navbar-toggler-icon"></span>
+  			</button>
+			<a id="logo_labted" class="navbar-brand" href="index.html">
+				<img alt="Brand" src="img/logo_labted.png" width="160" height="50">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarCollapse"" >	    
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="scroll" href="index.html#myCarousel">Home</a></li>
+					<li class="nav-item active"><a class="scroll" href="index.html#quemSomos">Quem somos</a></li>
+
+					<!-- Dropdown projetos -->
+					<div class="dropdown">
+						<li class="nav-item active"><a class="scroll" href="projetos.html" target="_blank" >Projetos</a></li>
+						<div class="dropdown-content">
+							<a href="projeto1.html">Projeto 1</a>
+							<a href="#">Projeto 2</a>
+							<a href="#">Projeto 3</a>
+						</div>
+					</div>
+					<!-- Fim dropdown projetos -->
+
+					<!-- Dropdown repositório -->
+					<div class="dropdown">
+						<li class="nav-item active"><a class="scroll" href="repositorio.html" target="_blank">Repositório</a></li>
+						<div class="dropdown-content">
+							<a href="software.html">Software</a>
+							<a href="jogos.html">Jogos</a>
+							<a href="manuais.html">Manuais</a>
+						</div>
+					</div>
+					<!-- Fim dropdown repositório -->
+
+					<!-- Dropdown publicações -->
+					<div class="dropdown">
+						<li class="nav-item active"><a href="publicacoes.html" target="_blank">Publicações</a></li>
+					</div>
+					<!-- Fim dropdown publicações -->
+					<li class="nav-item active"><a href="noticias.html">Notícias</a></li>
+					<li class="nav-item active"><a href="galeria.html">Galeria</a></li>
+					<li class="nav-item active"><a href="parceiros.html">Parceiros</a></li>
+					<li class="nav-item active"><a href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Fim menu -->
+
+		<div class="container" align="center">
+			<h2 class="titulos">Manuais </h2>
+		 	<h3 class="subtitulos text-secondary">Subtitulo</h3>
+		 	<!-- Inicio Softwares -->
+		      <div class="row">
+		        <div class="col-sm-6 col-md-6 col-lg-4">
+		          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+		          <h2>Manual 1</h2>
+		          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+		          <p><a class="btn btn-secondary" href="#" role="button">Ler mais &raquo;</a></p>
+		        </div><!-- /.col-sm-6 col-md-6 col-lg-4 -->
+		        <div class="col-sm-6 col-md-6 col-lg-4">
+		          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+		          <h2>Manual 2</h2>
+		          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+		          <p><a class="btn btn-secondary" href="#" role="button">Ler mais &raquo;</a></p>
+		        </div><!-- /.col-sm-6 col-md-6 col-lg-4 -->
+		        <div class="col-sm-6 col-md-6 col-lg-4">
+		          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+		          <h2>Manual 3</h2>
+		          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+		          <p><a class="btn btn-secondary" href="#" role="button">Ler mais &raquo;</a></p>
+		        </div><!-- /.col-sm-6 col-md-6 col-lg-4 -->
+		      </div><!-- /.row -->
+		</div><!-- /.container -->
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/vendor/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	    <script src="assets/js/vendor/holder.min.js"></script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>	
+	</body>
+</html>

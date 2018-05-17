@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>LabTEd - Laboratório de Tecnologias Educacionais</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="icon" href="img/logo.ico">
+		<script type="text/javascript"  src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    	<script type="text/javascript" src="js/functions.js"></script>
+
+
+	</head>
+	<body>
+		<!--Início menu -->
+		<nav class="nav navbar navbar-expand-md fixed-top navbar-light bg-light bg-white"> 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle naviagtion">
+   				<span class="navbar-toggler-icon"></span>
+  			</button>
+			<a id="logo_labted" class="navbar-brand" href="index.html">
+				<img alt="Brand" src="img/logo_labted.png" width="160" height="50">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarCollapse"" >	    
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="scroll" href="index.html#myCarousel">Home</a></li>
+					<li class="nav-item active"><a class="scroll" href="index.html#quemSomos">Quem somos</a></li>
+
+					<!-- Dropdown projetos -->
+					<div class="dropdown">
+						<li class="nav-item active"><a class="scroll" href="projetos.html" target="_blank" >Projetos</a></li>
+						<div class="dropdown-content">
+							<a href="projeto1.html">Projeto 1</a>
+							<a href="#">Projeto 2</a>
+							<a href="#">Projeto 3</a>
+						</div>
+					</div>
+					<!-- Fim dropdown projetos -->
+
+					<!-- Dropdown repositório -->
+					<div class="dropdown">
+						<li class="nav-item active"><a class="scroll" href="repositorio.html" target="_blank">Repositório</a></li>
+						<div class="dropdown-content">
+							<a href="software.html">Software</a>
+							<a href="jogos.html">Jogos</a>
+							<a href="manuais.html">Manuais</a>
+						</div>
+					</div>
+					<!-- Fim dropdown repositório -->
+
+					<!-- Dropdown publicações -->
+					<div class="dropdown">
+						<li class="nav-item active"><a href="publicacoes.html" target="_blank">Publicações</a></li>
+					</div>
+					<!-- Fim dropdown publicações -->
+					<li class="nav-item active"><a href="noticias.html">Notícias</a></li>
+					<li class="nav-item active"><a href="galeria.html">Galeria</a></li>
+					<li class="nav-item active"><a href="parceiros.html">Parceiros</a></li>
+					<li class="nav-item active"><a href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Fim menu -->
+		<div class="geral">
+			<br> <br>
+			<div class="container" id="containerFormulario">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h3 > Visite nossas redes socias </h3>
+							<a href=""> <img class="img-responsive" src="img/face.png" width="40" height="40" alt="Facebook"></a>
+							<a href=""><img class="img-responsive" src="img/g+.png" width="45" height="40" alt="Gmail"></a>
+							<a href=""><img class="img-responsive" src="img/insta.png" width="40" height="40" alt="Instagram"></a>	
+						<h3 class="espLocalizacao" >Localização</h3>
+						<div id="mapaHub">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6370.066296749733!2d-60.01960120423906!3d-3.0892198255690615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x926c1aa452bceae3%3A0x23715ad347502792!2sHub+Tecnologia+e+Inova%C3%A7%C3%A3o!3m2!1d-3.0920764999999997!2d-60.016194199999994!5e0!3m2!1spt-BR!2sbr!4v1513824668833" width="450" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>					
+							<br>
+							<h5>Laboratório de Tecnologias Educacionais</h5>
+							<h6 class="text-muted"> Prédio HUB da Escola Superior de Tecnologia - EST/UEA</h6>
+							<h6 class="text-muted"> Av. Darcy Vargas, Parque Dez de Novembro, Manaus - AM</h6>
+							<h6 class="text-muted"> Telefone: XXXXXXX / Email: XXXXXXXX</h6>
+						</div>
+					</div>
+				
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h3>Fale Conosco</h3>
+						<div id="formulario">
+					        <form name="formulario" action="#" method="post">
+							<input type=hidden name="destino" value="EmailQueVaiReceberAsMensagens">
+							<input type=hidden name="enviado" value="#">
+							
+							<input type=text name="nome" size="45" placeholder="Nome"></p>
+							
+							<input type=text name="email" size="45" placeholder="Email"></p>
+							
+							<input type=text name="assunto" size="45" placeholder="Assunto"></p>
+							
+							<textarea name="Mensagem" rows="10" cols="60" wrap="virtual" placeholder="Mensagem"></textarea></p>
+							<p><input type="submit" class="btn btn-primary" value="Enviar Email"> <input type="reset" class="btn btn-secondary" value="Limpar Formulário"></p>
+							</form>
+	      				</div>
+					</div>
+				</div><!--Fim Row-->
+			</div><!--Fim container-->
+
+		<!-- FOOTER -->
+			  	<footer>
+			  		<div class="container">
+				  		<div id="footer" class="row">
+					    	<div class="col-lg-3 col-sm-3 col-xs-6">
+					    		<div>
+					     	 		<img src="img/footer/uea.png" class="rounded float-left img-responsive" alt="UEA" width="80" height="80">
+					     	 	</div>
+							    <div class="descricao">
+							    	<p id="first" class="detalhe" align="center"> Av. Djalma Batista - Flores, nº 3578,  CEP 69050-010, Manaus </p>
+							    </div>
+						    </div>
+						    <div class="col-lg-3 col-sm-3 col-xs-6">
+						    	<div>
+						      		<img src="img/footer/est.png" class="rounded float-left img-responsive" alt="EST" width="80" height="80">
+						      	</div>
+							    <div class="descricao">
+							    	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+							    </div>
+						    </div>
+						    <div class="col-lg-3 col-sm-3 col-xs-6">
+						    	<div>
+						      		<img src="img/footer/hub.png" class="rounded float-left img-responsive" alt="HUB" width="80" height="80">
+						      	</div>
+						      	<div class="descricao">
+						        	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+						      	</div>
+						    </div>
+						    <div class="col-lg-3 col-sm-3 col-xs-6">
+						    	<div>
+						    		<img src="img/footer/labted.png" class="rounded float-left img-responsive" alt="HUB" width="80" height="80">
+						    	</div>
+						      	<div class="descricao">
+						       		<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+						      	</div>
+						    </div>
+					  	</div>
+						<br>
+						<p id="copyright" align="center">&copy; 2018 LabTEd, Inc. Site desenvolvido pela equipe LabTEd &middot; </p>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/vendor/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	    <script src="assets/js/vendor/holder.min.js"></script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>	
+	</body>
+</html>

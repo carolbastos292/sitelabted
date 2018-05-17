@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>LabTEd - Laboratório de Tecnologias Educacionais</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		
+
+
+	</head>
+	<body>
+		<div class="geral">
+			<!--Início menu -->
+			<nav class="nav navbar navbar-expand-md fixed-top navbar-light bg-light bg-white"> 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle naviagtion">
+	   				<span class="navbar-toggler-icon"></span>
+	  			</button>
+				<a id="logo_labted" class="navbar-brand" href="index.html">
+					<img alt="Brand" src="img/logo_labted.png" width="160" height="50">
+				</a>
+				<div class="collapse navbar-collapse" id="navbarCollapse"" >	    
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a class="scroll" href="#myCarousel">Home</a></li>
+						<li class="nav-item active"><a class="scroll" href="#quemSomos">Quem somos</a></li>
+
+						<!-- Dropdown projetos -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="#linhas_de_pesquisa">Linhas de pesquisa</a></li>
+						</div>
+						<!-- Fim dropdown projetos -->
+
+						<!-- Dropdown repositório -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="#repositorio">Repositório</a></li>
+							<div class="dropdown-content">
+								<a href="repositorio.html" class="click_softwares">Software</a>
+								<a href="repositorio.html" class="click_jogos">Jogos</a>
+								<a href="repositorio.html" class="click_manuais">Manuais</a>
+							</div>
+						</div>
+						<!-- Fim dropdown repositório -->
+
+						<!-- Dropdown publicações -->
+						<div class="dropdown">
+							<li class="nav-item active"><a href="publicacoes.html" target="_blank">Publicações</a></li>
+						</div>
+						<!-- Fim dropdown publicações -->
+						<li class="nav-item active"><a href="noticias.html">Notícias</a></li>
+						<li class="nav-item active"><a href="galeria.html">Galeria</a></li>
+						<li class="nav-item active"><a href="parceiros.html">Parceiros</a></li>
+						<li class="nav-item active"><a href="contato.html">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Fim menu -->
+
+			<!-- Início Carrossel -->
+			<div id="myCarousel" class="carousel slide anime" data-ride="carousel">
+				<!-- Início Indicadores -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<!-- Fim Indicadores -->
+
+				<!-- Início Imagens -->
+				<div class="carousel-inner">
+					<!--Primeiro Slide -->
+					<div class="carousel-item active bgCarrossel">
+						<a href="noticia1.html">
+							<div class="imagemCarrossel">
+								<img class="first-slide" src="img/img_noticias/noticia1.jpg" alt="First slide" width="100%">
+							</div>
+						    <div>
+						    	<div class="carousel-caption d-md-block textoCarrossel">
+						    		<div class="teste">
+						        		<h2 class="tituloCarrossel">Notícia exemplo</h2>
+						        		<p class="resumoTxtCarrossel">Este é um exemplo de notícia no carrossel.</p>					       
+						      		</div>
+						      	</div>
+						    </div>
+					    </a>
+					</div>
+
+					<!--Segundo Slide -->
+					<div class="carousel-item bgCarrossel">
+						<a href="noticia2.html">
+							<div class="imagemCarrossel">
+								<img class="first-slide" src="img/img_noticias/noticia2.jpg" alt="Second slide" width="100%">
+							</div>
+						    <div>
+						    	<div class="carousel-caption d-md-block textoCarrossel">
+						    		<div class="teste">
+							        	<h2 class="tituloCarrossel">Alunos usando Ipad</h2>
+							        	<p class="resumoTxtCarrossel">Sem ideia de imagem coloquei esta no carrossel.</p>
+							       	</div>					       
+						      	</div>
+						    </div>
+						</a>
+					</div>
+
+					<!--Terceiro Slide -->
+					<div class="carousel-item bgCarrossel">
+						<a href="noticia3.html">
+							<div class="imagemCarrossel">
+								<img class="first-slide" src="img/img_noticias/noticia3.jpg" alt="Second slide" width="100%">
+							</div>
+						    <div>
+						    	<div class="carousel-caption d-md-block textoCarrossel">
+						    		<div class="teste">
+							        	<h2 class="tituloCarrossel">Oficina de Scratch na SNTC</h2>
+							        	<p class="resumoTxtCarrossel">Acadêmicos de Licenciatura em Computação realizam oficina de Scratch.</p>
+							       	</div>
+						      	</div>
+						    </div>
+						</a>
+					</div>
+
+					<!--Quarto Slide -->
+					<div class="carousel-item bgCarrossel">
+						<a href="noticia4.html">
+							<div class="imagemCarrossel">
+								<img class="first-slide" src="img/img_noticias/noticia4.jpg" alt="Second slide" width="100%">
+							</div>
+						    <div>
+						    	<div class="carousel-caption d-md-block textoCarrossel">
+						    		<div class="teste">
+							        	<h2 class="tituloCarrossel">Gan Israel visita o LabTEd</h2>
+							        	<p class="resumoTxtCarrossel">Com visita da colônia de férias Gan Israel, o LabTEd realizou atividades envolvendo pensamento computacional. Com visita da colônia de férias Gan Israel, o LabTEd realizou atividades envolvendo.</p>
+						        	</div>					       
+						      	</div>
+						    </div>
+						</a>
+					</div>
+				</div>
+					
+				<!-- Fim Imagens -->
+
+				<!-- Início Controles esquerda e direita -->
+				<a class="carousel-control-prev btnCarrossel" href="#myCarousel" role="button" data-slide="prev">
+		    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    		<span class="sr-only">Previous</span>
+		  		</a>
+
+				<a class="carousel-control-next btnCarrossel" href="#myCarousel" role="button" data-slide="next">
+		    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    		<span class="sr-only">Next</span>
+		  		</a>
+				<!-- Fim Controles esquerda e direita -->		
+			</div>
+			<!-- Fim Carrossel -->
+
+
+			<!-- INICIO CONTAINER -->
+			<div id="geral" class="container" >
+
+			<!--Inicio - Quem Somos -->
+				
+				<div id="quemSomos" class="row container anime">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="innerQuemSomos">
+						<div><h2 class="titulos">O LabTEd</h2></div>
+						
+						<h3 class="subtitulos text-secondary">Laboratório de Tecnologias Educacionais</h3>
+
+						<a type="button" class="btn center" align="center" data-toggle="collapse" data-target=".esconderQuemSomos" aria-controls="esconderQuemSomos" aria-expanded="false">
+				   			<div><p class="fa fa-bars"></p></div>
+				  		</a>
+
+				      	<p id="resumoQuemSomos" class="text-justify esconderQuemSomos"> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. </p>
+
+				      	<button class="btn btn-primary" id="saibaMais">Saiba mais...</button>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 esconderQuemSomos">
+						<img class="img-responsive" src="img/img.png" width="100%" height="auto" alt="Generic placeholder image">
+					</div>
+				</div>
+			<!-- Fim Quem Somos -->
+
+			<!--Inicio - Projetos -->
+				<div id="linhas_de_pesquisa" class="container anime">
+					<h2 class="titulos">Linhas de pesquisa</h2>
+			 		<h3 class="subtitulos text-secondary">Confira as linhas de pesquisa do laboratório</h3>
+
+					  <div class="row" align="center">
+					    <div class="col-sm-4 col-md-6 col-lg-4">
+					      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+					      <h2>Heading</h2>
+					      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					    </div><!-- /.col-lg-4 -->
+					    <div class="col-sm-4 col-md-6 col-lg-4">
+					      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+					      <h2>Heading</h2>
+					      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					    </div><!-- /.col-lg-4 -->
+					    <div class="col-sm-4 col-md-6 col-lg-4">
+					      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+					      <h2>Heading</h2>
+					      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					    </div><!-- /.col-lg-4 -->
+					  </div><!-- /.row -->
+				  </div>
+			<!-- Fim Projetos -->
+
+			<!--REPOSITÓRIOS -->
+				<div id="repositorio" class="container anime">
+					<h2 class="titulos">Repositório </h2>
+			 		<h3 class="subtitulos text-secondary">Confira aqui o repositório do nosso laboratório.</h3>
+
+					  <div class="row" align="center">
+					    <div class="col-lg-4"> 
+						<a class="svgLink click_softwares" href="repositorio.html">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+								<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="40" fill="blue">
+								</circle>
+
+								<text font-size="15" x="50%" y="93" fill="blue">Softwares</text>
+							</svg>
+
+							
+						</a>
+						
+					    </div><!-- /.col-lg-4 -->
+					    <div class="col-lg-4">
+						
+						
+					    <a class="svgLink click_jogos" href="repositorio.html" id="jogos">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+								<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="40" fill="blue">
+								</circle>
+
+								<text font-size="15" x="50%" y="93" fill="blue">Jogos</text>
+							</svg>
+
+							
+						</a>
+					    
+						</div><!-- /.col-lg-4 -->
+					    <div class="col-lg-4">
+						
+
+						<a class="svgLink click_manuais" href="repositorio.html" id="manuais">
+							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+								<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="40" fill="blue">
+								</circle>
+
+								<text font-size="15" x="50%" y="93" fill="blue">Manuais</text>
+							</svg>
+
+							
+						</a>
+						
+					    </div><!-- /.col-lg-4 -->
+					</div>
+				</div>
+			<!-- Fim Repositórios -->
+			
+			</div>
+			<!-- FIM CONTAINER -->
+
+			<!-- FOOTER -->
+		  	<footer>
+		  		<div class="container footer">
+			  		<div id="footer" class="row">
+				    	<div class="col-lg-3 col-sm-3 col-xs-6">
+				    		<div class="imgFooter">
+				     	 		<img src="img/footer/uea.png" class="rounded float-left img-responsive logoFooter" alt="UEA" width="80" height="80">
+				     	 	</div>
+						    <div class="descricao">
+						    	<p id="first" class="detalhe" align="center"> Av. Djalma Batista - Flores, nº 3578,  CEP 69050-010, Manaus </p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					      		<img src="img/footer/est.png" class="rounded float-left img-responsive logoFooter" alt="EST" width="80" height="80">
+					      	</div>
+						    <div class="descricao">
+						    	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					      		<img src="img/footer/hub.png" class="rounded float-left img-responsive logoFooter" alt="HUB" width="80" height="80">
+					      	</div>
+					      	<div class="descricao">
+					        	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					    		<img src="img/footer/labted.png" class="rounded float-left img-responsive logoFooter" alt="HUB" width="80" height="80">
+					    	</div>
+					      	<div class="descricao">
+					       		<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+				  	</div>
+					<p id="copyright" align="center">&copy; 2018 LabTEd, Inc. Site desenvolvido pela equipe LabTEd &middot; </p>
+				</div>
+			</footer>
+		</div>
+
+		
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/vendor/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	    <script src="assets/js/vendor/holder.min.js"></script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>	
+	</body>
+</html>

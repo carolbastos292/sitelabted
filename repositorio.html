@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>LabTEd - Laboratório de Tecnologias Educacionais</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/estiloAbas.css">
+		<link rel="icon" href="img/logo.ico">
+		<script type="text/javascript"  src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    	<script type="text/javascript" src="js/scriptAbas.js"></script>
+    	<script type="text/javascript" src="js/functions.js"></script>
+    	
+   		
+
+
+	</head>
+	<body>
+		<div class="geral">
+			<!--Início menu -->
+			<nav class="nav navbar navbar-expand-md fixed-top navbar-light bg-light bg-white"> 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle naviagtion">
+	   				<span class="navbar-toggler-icon"></span>
+	  			</button>
+				<a id="logo_labted" class="navbar-brand" href="index.html">
+					<img alt="Brand" src="img/logo_labted.png" width="160" height="50">
+				</a>
+				<div class="collapse navbar-collapse" id="navbarCollapse"" >	    
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a class="scroll" href="index.html#myCarousel">Home</a></li>
+						<li class="nav-item active"><a class="scroll" href="index.html#quemSomos">Quem somos</a></li>
+
+						<!-- Dropdown projetos -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="projetos.html">Linhas de pesquisa</a></li>
+						</div>
+						<!-- Fim dropdown projetos -->
+
+						<!-- Dropdown repositório -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="repositorio.html">Repositório</a></li>
+							<div class="dropdown-content">
+								<a href="repositorio.html" class="click_softwares">Softwares</a>
+								<a href="repositorio.html" class="click_jogos">Jogos</a>
+								<a href="repositorio.html" class="click_manuais">Manuais</a>
+							</div>
+						</div>
+						<!-- Fim dropdown repositório -->
+
+						<!-- Dropdown publicações -->
+						<div class="dropdown">
+							<li class="nav-item active"><a href="publicacoes.html" target="_blank">Publicações</a></li>
+						</div>
+						<!-- Fim dropdown publicações -->
+						<li class="nav-item active"><a href="noticias.html">Notícias</a></li>
+						<li class="nav-item active"><a href="galeria.html">Galeria</a></li>
+						<li class="nav-item active"><a href="parceiros.html">Parceiros</a></li>
+						<li class="nav-item active"><a href="contato.html">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Fim menu -->
+
+			<div id="geral" class="container">
+				<h2 align="center">Repositório</h2>
+				<div class="TabControl">
+				    <div id="header" class="row">
+				        <ul class="abas row">
+				            <li class="col-md-4 col-sm-4 col-xs-3">
+				                <div class="aba" id="softwares">
+				                    <span>Softwares</span>     
+				                </div>
+				            </li>
+				            <li class="col-md-4 col-sm-4 col-xs-3">
+				                <div class="aba"  id="jogos">
+				                    <span>Jogos</span>
+				                </div>
+				            </li>
+				            <li class="col-md-4 col-sm-4 col-xs-3">
+				                <div class="aba"  id="manuais">
+				                    <span>Manuais</span>
+				                </div>
+				            </li> 
+				        </ul>
+				    </div>
+				    <div id="content" class="row">
+				        <div class="conteudo col-lg-12 col-sm-12">
+				            <div class="row" align="center">
+						    	<div class="col-lg-4 col-md-4 software"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 software">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 software">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 software"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 software">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 software">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Software 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+							</div>
+					    </div>
+
+				        <div class="conteudo col-lg-12 col-sm-12">
+				            <div class="row jogo" align="center">
+						    	<div class="col-lg-4 col-md-4 jogo"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 jogo">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 jogo">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 jogo"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 jogo">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 jogo">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Jogo 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+							</div>
+					    </div>
+				         <div class="conteudo col-lg-12 col-sm-12">
+				            <div class="row manual" align="center">
+						    	<div class="col-lg-4 col-md-4 manual"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 manual">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 manual">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 manual"> 
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 1</text>
+										</svg>							
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+
+						    	<div class="col-lg-4 col-md-4 manual">
+						    		<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 2</text>
+										</svg>	
+									</a>
+								</div><!-- /.col-lg-4 -->
+						    	<div class="col-lg-4 col-md-4 manual">
+									<a class="svgLink" href="#">
+										<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="200">
+											<circle id="circulo" class="cls-1" cx="50%" cy="40%" r="33" fill="black">
+											</circle>
+
+											<text font-size="15" x="50%" y="93" fill="black">Manual 3</text>
+										</svg>	
+									</a>
+						    	</div><!-- /.col-lg-4 -->
+							</div>
+					    </div>
+				    </div>
+				</div>
+			</div>
+
+			
+
+			<!-- FOOTER -->
+		  	<footer>
+		  		<div class="container">
+			  		<div id="footer" class="row">
+				    	<div class="col-lg-3 col-sm-3 col-xs-6">
+				    		<div>
+				     	 		<img src="img/footer/uea.png" class="rounded float-left img-responsive" alt="UEA" width="80" height="80">
+				     	 	</div>
+						    <div class="descricao">
+						    	<p id="first" class="detalhe" align="center"> Av. Djalma Batista - Flores, nº 3578,  CEP 69050-010, Manaus </p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div>
+					      		<img src="img/footer/est.png" class="rounded float-left img-responsive" alt="EST" width="80" height="80">
+					      	</div>
+						    <div class="descricao">
+						    	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div>
+					      		<img src="img/footer/hub.png" class="rounded float-left img-responsive" alt="HUB" width="80" height="80">
+					      	</div>
+					      	<div class="descricao">
+					        	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div>
+					    		<img src="img/footer/labted.png" class="rounded float-left img-responsive" alt="HUB" width="80" height="80">
+					    	</div>
+					      	<div class="descricao">
+					       		<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+				  	</div>
+					<br>
+					<p id="copyright" align="center">&copy; 2017 LabTEd, Inc. Site desenvolvido pela equipe LabTEd &middot; </p>
+				</div>
+			</footer>
+		</div>
+
+		
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/vendor/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	    <script src="assets/js/vendor/holder.min.js"></script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>	
+
+	 
+	</body>
+</html>

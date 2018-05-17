@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>LabTEd - Laboratório de Tecnologias Educacionais</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+
+
+	</head>
+	<body>
+		<div class="geral">
+			<!--Início menu -->
+			<nav class="nav navbar navbar-expand-lg fixed-top navbar-light"> 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle naviagtion">
+	   				<span class="navbar-toggler-icon"></span>
+	  			</button>
+				<a id="logo_labted" class="navbar-brand" href="index.html">
+					<img alt="Brand" src="img/logo_labted.png" width="160" height="50">
+				</a>
+				<div class="collapse navbar-collapse" id="navbarCollapse"" >	    
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a class="scroll" href="index.html#myCarousel">Home</a></li>
+						<li class="nav-item active"><a class="scroll" href="index.html#quemSomos">Quem somos</a></li>
+
+						<!-- Dropdown projetos -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="#linhas_de_pesquisa">Linhas de pesquisa</a></li>
+						</div>
+						<!-- Fim dropdown projetos -->
+
+						<!-- Dropdown repositório -->
+						<div class="dropdown">
+							<li class="nav-item active"><a class="scroll" href="#repositorio">Repositório</a></li>
+							<div class="dropdown-content">
+								<a href="software.html">Software</a>
+								<a href="jogos.html">Jogos</a>
+								<a href="manuais.html">Manuais</a>
+							</div>
+						</div>
+						<!-- Fim dropdown repositório -->
+
+						<!-- Dropdown publicações -->
+						<div class="dropdown">
+							<li class="nav-item active"><a href="publicacoes.html" target="_blank">Publicações</a></li>
+						</div>
+						<!-- Fim dropdown publicações -->
+						<li class="nav-item active"><a href="noticias.html">Notícias</a></li>
+						<li class="nav-item active"><a href="galeria.html">Galeria</a></li>
+						<li class="nav-item active"><a href="parceiros.html">Parceiros</a></li>
+						<li class="nav-item active"><a href="contato.html">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Fim menu -->
+
+			<div id="geral">
+
+			<header>
+				<div id="geralHeader">
+					<div id="cabecalho-des-serious-games" class="jumbotron">
+						<h2 id="tit-cab-lin-pesq">Desenvolvimento <br> de Serious Games</h2>
+					</div>
+				</div>
+			</header>
+				<section id="sobre" class="secaoLinhaDePesquisa">
+					<h2 class="tituloLinhaDePesquisa">Sobre<span class="fa fa-info"></span></h2>
+					<p class="textSobre text-justify">O mercado de games no Brasil está expandindo, mas o que também está crescendo é o número de empresas que está recorrendo a estratégias de gamificação para desenvolver habilidade e competências dos colaboradores e atingir melhores resultados. Assim, não existem apenas os games voltados para o entretenimento, mas também os chamados serious games, ou jogos sérios, que têm por objetivo entreter, mas principalmente inserir o participante em uma situação específica para que ele tome decisões e encare desafios.</p>
+				</section>
+
+				<section id="equipe" class="secaoLinhaDePesquisa">
+					<h2 class="tituloLinhaDePesquisa">Equipe <span class="fa fa-users"></span></h2>
+					<div class="row geralNomes">
+						<div id="nomesEquipe" class="col-lg-2 col-md-3 col-sm-3">
+							<ul id="nomes_equipe">
+								<li class="nome_equipe">Carlos Duarte</li>
+								<li class="nome_equipe">Rafaela Melo</li>
+								<li class="nome_equipe">Lucas Sarmento</li>
+								<li class="nome_equipe">Jõao Queroga</li>
+								<li class="nome_equipe">Fábio Michel</li>
+								<li class="nome_equipe">Fabrizio Honda</li>
+								<li class="nome_equipe">Jõao Bernardo</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section id="projetos" class="secaoLinhaDePesquisa">
+					<h2 class="tituloLinhaDePesquisa">Projetos <span class="fas fa-folder-open""></span></h2>
+					<div id="geralProjetos" class="row">
+						<div class="col-lg-4 col-md-4 innerProjetos">
+							<div class="clicar">
+								<div id="projeto1" class="logoProjeto">
+								</div>
+								<div class="nomeProjeto">
+									<h3>O Livro do Conhecimento</h3>
+								</div>
+
+								<div id="txtProjeto1" class="collapse text-justify textoProjeto">
+									<p>A revista com os mais famosos jogos inteligentes do Brasil, agora em versão mobile, com desafios interativos e divertidos, proporcionado mais cultura, enriquecendo o vocabulário, aumentando a percepção visual e o poder de concentração.</p>
+								</div>
+							</div>	
+						</div>
+
+						<div class="col-lg-4 col-md-4 innerProjetos">
+							<div class="clicar">
+								<div id="projeto2" class="logoProjeto">
+								</div>
+								<div class="nomeProjeto">
+									<h3>O Livro do Conhecimento</h3>
+								</div>
+
+								<div id="txtProjeto2" class="collapse text-justify textoProjeto">
+									<p>A revista com os mais famosos jogos inteligentes do Brasil, agora em versão mobile, com desafios interativos e divertidos, proporcionado mais cultura, enriquecendo o vocabulário, aumentando a percepção visual e o poder de concentração.</p>
+								</div>
+							</div>	
+						</div>
+
+						<div class="col-lg-4 col-md-4 innerProjetos">
+							<div class="clicar">
+								<div id="projeto3" class="logoProjeto">
+								</div>
+								<div class="nomeProjeto">
+									<h3>O Livro do Conhecimento</h3>
+								</div>
+
+								<div id="txtProjeto3" class="collapse text-justify textoProjeto">
+									<p>A revista com os mais famosos jogos inteligentes do Brasil, agora em versão mobile, com desafios interativos e divertidos, proporcionado mais cultura, enriquecendo o vocabulário, aumentando a percepção visual e o poder de concentração.</p>
+								</div>
+							</div>		
+						</div>
+
+						<div class="col-lg-4 col-md-4 innerProjetos">
+							<div class="clicar">
+								<div id="projeto3" class="logoProjeto">
+								</div>
+								<div class="nomeProjeto">
+									<h3>O Livro do Conhecimento</h3>
+								</div>
+								<div id="txtProjeto3" class="collapse text-justify textoProjeto">
+									<p>A revista com os mais famosos jogos inteligentes do Brasil, agora em versão mobile, com desafios interativos e divertidos, proporcionado mais cultura, enriquecendo o vocabulário, aumentando a percepção visual e o poder de concentração.</p>
+								</div>
+							</div>							
+						</div>
+
+						<div class="col-lg-4 col-md-4 innerProjetos">
+							<div class="clicar">
+								<div id="projeto3" class="logoProjeto">
+								</div>
+								<div class="nomeProjeto">
+									<h3>O Livro do Conhecimento</h3>
+								</div>
+
+								<div class="collapse text-justify textoProjeto">
+									<p>A revista com os mais famosos jogos inteligentes do Brasil, agora em versão mobile, com desafios interativos e divertidos, proporcionado mais cultura, enriquecendo o vocabulário, aumentando a percepção visual e o poder de concentração.</p>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</section>
+
+			
+			<!-- FOOTER -->
+		  	<footer>
+		  		<div class="container footer">
+			  		<div id="footer" class="row">
+				    	<div class="col-lg-3 col-sm-3 col-xs-6">
+				    		<div class="imgFooter">
+				     	 		<img src="img/footer/uea.png" class="rounded float-left img-responsive logoFooter" alt="UEA" width="80" height="80">
+				     	 	</div>
+						    <div class="descricao">
+						    	<p id="first" class="detalhe" align="center"> Av. Djalma Batista - Flores, nº 3578,  CEP 69050-010, Manaus </p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					      		<img src="img/footer/est.png" class="rounded float-left img-responsive logoFooter" alt="EST" width="80" height="80">
+					      	</div>
+						    <div class="descricao">
+						    	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+						    </div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					      		<img src="img/footer/hub.png" class="rounded float-left img-responsive logoFooter" alt="HUB" width="80" height="80">
+					      	</div>
+					      	<div class="descricao">
+					        	<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+					    <div class="col-lg-3 col-sm-3 col-xs-6">
+					    	<div class="imgFooter">
+					    		<img src="img/footer/labted.png" class="rounded float-left img-responsive logoFooter" alt="HUB" width="80" height="80">
+					    	</div>
+					      	<div class="descricao">
+					       		<p class="detalhe" align="center"> Avenida Darcy Vargas,  Parque Dez de Novembro, Manaus - AM</p>
+					      	</div>
+					    </div>
+				  	</div>
+					<p id="copyright" align="center">&copy; 2018 LabTEd, Inc. Site desenvolvido pela equipe LabTEd &middot; </p>
+				</div>
+			</footer>
+
+			</div>
+		</div>
+
+		
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="assets/js/vendor/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	    <script src="assets/js/vendor/holder.min.js"></script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>	
+	</body>
+</html>
